@@ -1,0 +1,70 @@
+.payment-content {
+	display: flex;
+	flex-direction: column;
+	padding: 32px 24px 24px;
+}
+
+.payment-content .payment-info h3 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.payment-content .payment-info h4 {
+	margin-top: 24px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.payment-content .payment-info p {
+	margin-top: 24px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.payment-content .payment-images {
+	display: grid;
+	margin-top: 24px;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+	height: 460px;
+}
+
+.payment-content .payment-images .image {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.payment-content .payment-images .image.temple {
+	background-image: url(../img/image-grid-1.jpg);
+}
+
+.payment-content .payment-images .image.city {
+	background-image: url(../img/image-grid-2.jpg);
+}
+
+.payment-content .payment-images .image.person {
+	background-image: url(../img/image-grid-3.jpg);
+	grid-column: span 2;
+}
+
+@media screen and (min-width: 1440px) {
+	.payment-content {
+		display: flex;
+		flex-direction: row;
+		padding: 0 120px 104px;
+	}
+
+	.payment-info {
+		width: 790px;
+	}
+
+	.payment-info h3 {
+		margin-top: 96px;
+	}
+
+	.payment-images {
+		width: 790px;
+	}
+}
