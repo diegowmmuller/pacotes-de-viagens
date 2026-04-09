@@ -1,0 +1,54 @@
+.hero {
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+		url(../img/monte-fugi-mobile.jpg) no-repeat;
+	background-size: cover;
+	background-position: 70% center;
+	height: 460px;
+	padding: 65px 24px;
+}
+
+.hero h1 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.hero hr {
+	display: inline-block;
+	background-color: #b81515;
+	margin-top: 16px;
+	margin-bottom: 32px;
+	border: none;
+	height: 4px;
+	width: 180px;
+}
+
+.hero p {
+	color: #fff;
+	font-weight: 400px;
+	line-height: 32px;
+	font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+	.hero {
+		height: 620px;
+		padding: 208px 120px;
+	}
+
+	.hero p {
+		line-height: 150%;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.hero {
+		height: 620px;
+		padding: 158px 120px;
+	}
+
+	.hero p {
+		width: 580px;
+	}
+}
