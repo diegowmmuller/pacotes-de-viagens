@@ -5,6 +5,22 @@
 	box-sizing: border-box;
 }
 
+.secondary-header {
+	text-align: center;
+}
+
+.secondary-header h2 {
+	font-size: 32px;
+}
+
+.secondary-header hr {
+	display: inline-block;
+	background-color: #b81515;
+	width: 180px;
+	height: 4px;
+	border: none;
+}
+
 @font-face {
 	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat-VariableFont_wght.ttf');
